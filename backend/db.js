@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-connectDb("mongodb+srv://yuvas2001:admin@cluster0.6duhljg.mongodb.net/")
+connectDb("")
 
 async function connectDb(url){
     try{
